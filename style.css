@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url('./imagens/Vector.jpg');
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+}
+
+.title-secundary {
+    text-align: center; 
+    margin-top: 20px; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.input-box input {
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+form .user-details .input-box {
+    margin: 5px 0 3px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+    font-weight: 500;
+    margin-bottom: 5px; 
+    color: #fff;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    color: #7B68EE;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form .button input:hover {
+    background:  rgba(0, 0, 0, 0.5);
+}
